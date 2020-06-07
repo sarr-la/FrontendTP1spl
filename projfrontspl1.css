@@ -1,31 +1,99 @@
 
-#mainNav{
 
-display: table-header-group;
+nav.Logo ul li.btn{
+    display: inline-block;
+    list-style-type: none;
+    }
+
+
+nav.menu-nav ul li.btn{
+display: inline-block;
+list-style-type: none;
+
 }
 
 
-.nav-item{
- display: inline;
- margin-left: 350px;
+nav.menu-nav ul li.btn:hover a{
+    color: mediumblue;
+    background-color: orangered;
+    }
 
-    
 
+div#content div{
+display: inline-block;
+width: 20%;
+margin-right: 100px;
 }
+
+
+div#content div.leftbox{
+margin: 80px;
+margin-left: 260px;
+}
+
+div#content div.rightbox{
+   margin-bottom: 60px;
+   
+}
+
 body{
+
     background-color: white;
+    background-image: url(../Projectfront1splindiv/BGD.jpg);
+    background-size: 1600px;
 }
 
-.tache{
-    margin-top: 80px;
-  padding-block-start: 60px;
-
-
-}
 
 .Corps{
 
-margin-top: 200px;
-margin-left: 500px;
+    margin-top: 200px;
+    margin-left: 500px;
+    
+    }
 
+.fonctions{
+    display: inline-block;
+
+}
+
+.para{
+display: inline;
+
+}
+
+.START{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-menu ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    display: inline;
+    list-style-type: none;
+}
+
+.social-menu ul li{
+list-style: none;
+margin: 0 15px;
+}
+
+.social-menu ul li .fa{
+font-size: 30px;
+line-height: 60px;
+transition: 6s;
+color: #000;
+}
+
+.social-menu ul li a{
+position: relative;
+display: block;
+width: 60px;
+height: 60px;
+border-radius: 50%;
 }
