@@ -7,8 +7,10 @@ nav.Logo ul li.btn{
 
 
 nav.menu-nav ul li.btn{
-display: inline-block;
+display: inline;
 list-style-type: none;
+margin-left: 20%;
+margin-right: 12%;
 
 }
 
@@ -37,7 +39,6 @@ div#content div.rightbox{
 }
 
 body{
-
     background-color: white;
     background-image: url(../Projectfront1splindiv/BGD.jpg);
     background-size: 1600px;
@@ -51,11 +52,6 @@ body{
     
     }
 
-.fonctions{
-    display: inline-block;
-
-}
-
 .para{
 display: inline;
 
@@ -64,6 +60,11 @@ display: inline;
 .START{
     text-align: center;
     margin-top: 50px;
+    border: 2px solid black;
+max-width: 200px;
+margin-left: 43%;
+max-height: 15 px;
+
 }
 
 .social-menu ul{
