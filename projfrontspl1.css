@@ -1,8 +1,10 @@
 
 
-nav.Logo ul li.btn{
+nav.Logo ul li.btn a{
     display: inline-block;
     list-style-type: none;
+    color: whitesmoke;
+   font-size: 15px;
     }
 
 
@@ -11,13 +13,13 @@ display: inline;
 list-style-type: none;
 margin-left: 20%;
 margin-right: 12%;
-
+color: whitesmoke;
+size: 10px;
 }
 
 
-nav.menu-nav ul li.btn:hover a{
-    color: mediumblue;
-    background-color: orangered;
+nav.menu-nav ul li.btn a{
+    color: whitesmoke;
     }
 
 
@@ -25,51 +27,53 @@ div#content div{
 display: inline-block;
 width: 20%;
 margin-right: 100px;
+
+
+border-right: 2px solid whitesmoke;
+padding: 5px;
+color: whitesmoke;
+
+
 }
 
 
 div#content div.leftbox{
 margin: 80px;
-margin-left: 260px;
+margin-left: 230px;
+color: blanchedalmond;
 }
 
 div#content div.rightbox{
    margin-bottom: 60px;
+   color: whitesmoke;
    
 }
 
 body{
     background-color: white;
-    background-image: url(../Projectfront1splindiv/BGD.jpg);
+    background-image: url(../Projectfront1splindiv/TPbg.jpg);
     background-size: 1600px;
+
+    color: whitesmoke;
 }
 
 
 .Corps{
     margin-top: 200px;
     margin-left: 500px;
+
+    color: whitesmoke;
     
     }
 
 .para{
 display: inline;
 
-}
-
-.START{
-   border-radius: 70px;
-   width: 180px;
-   height: 40px;
-   display: inline-block;
-   margin: 30px 40px;
-   text-align: center;
-border-style: solid;
-margin-top: 0px;
-size: 60px;
-margin-left: 43%;
+color: whitesmoke;
 }
 
 .social-menu ul{
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -77,20 +81,25 @@ margin-left: 43%;
     display: flex;
     display: inline;
     list-style-type: none;
-   
+    color: whitesmoke;
+
+
+
+    
 }
 
 .social-menu ul li{
 list-style: none;
 margin: 0 15px;
+color: whitesmoke;
+
 
 }
 
 .social-menu ul li .fa{
 font-size: 30px;
 line-height: 60px;
-transition: 6s;
-color: #000;
+color: whitesmoke;
 
 }
 
@@ -101,4 +110,23 @@ width: 50px;
 height: 50px;
 border-radius: 50%;
 text-align: center;
+color: whitesmoke;
+
+
 }
+
+.START ul li a{
+    border-radius: 50px;
+    width: 160px;
+    height: 40px;
+    margin: 30px 60px;
+    margin-top: 4px;
+    text-align: center;
+ border-style: solid;
+ size: 80px;
+ margin-left: 41%;
+color: lightgreen;
+list-style-type: none;
+
+ }
+ 
